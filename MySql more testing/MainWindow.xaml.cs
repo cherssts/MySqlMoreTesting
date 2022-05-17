@@ -23,6 +23,7 @@ namespace MySql_more_testing
     public partial class MainWindow : Window
     {
         #region Constructor
+
         public MainWindow()
         {
             InitializeComponent();

@@ -85,6 +85,22 @@ namespace MySql_more_testing
                     cmd.ExecuteNonQuery();
                     con.Close();
                 }
+                //if(bruh == true)
+                //{
+                //    con.Open();
+                //    string commandLineCheckUser = $"Select `Id_Usuario` from `ventas`";
+                //    cmd.CommandText = commandLineCheckUser;
+                //    cmd.ExecuteNonQuery();
+                //    MySqlDataReader _readerCheck = cmd.ExecuteReader();
+                //    _readerCheck.Read();
+                //    if (sd.UserCode != _readerCheck.GetInt32(0).ToString())
+                //    {
+                //        MessageBox.Show("The UserCode Does not match with the one who is incharged.","Error",MessageBoxButton.OK,MessageBoxImage.Error);
+                //        con.Clone();
+                //        return;
+                //    }
+                //    con.Close();
+                //}
 
                 con.Open();
                 //String where we Get the Sell Id in order to let the Sell detail
